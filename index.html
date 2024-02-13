@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eshop</title> 
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+	<!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Slick Slider  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/fa9a16eb6f.js" crossorigin="anonymous"></script>
+
+    <!-- animtion -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Header -->
+ 
+	<header>
+        <nav class="navbar navbar-expand-md py-0 bottom-border mx-lg-auto slideMe">
+            <div class="container-fluid px-0">
+                <a class="navbar-brand p-0" href="#">
+                    <img src="assets/img/logo.png" alt="" class="d-inline-block align-text-top img-fluid">
+                </a>
+                <button class="navbar-toggler" id="toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample01">
+                    <form class="d-flex ms-auto landing">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="search">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass" id="searchIcon"></i>
+                    </form>
+                    <ul class="navbar-nav d-flex align-items-center">
+                        <li class="nav-item landing">
+                            <a class="nav-link p-0" href="#">
+                            	<i class="fa-sharp fa-regular fa-heart"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item landing">
+                            <a class="nav-link p-0" href="#">
+                            	<i class="fa fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item landing">
+                            <a class="nav-link p-0" href="#">
+                            	<i class="fa fa-cart-shopping"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item mobile">
+                            <a class="nav-link active py-0" aria-current="page" href="#">
+                                home
+                            </a>
+                        </li>
+                        <li class="nav-item mobile">
+                            <a class="nav-link py-0" href="#">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="nav-item mobile">
+                            <a class="nav-link py-0" href="#">
+                                about us
+                            </a>
+                        </li>
+                        <li class="nav-item mobile">
+                            <a class="nav-link py-0" href="#">
+                                blogs
+                            </a>
+                        </li>
+                        <li class="nav-item mobile">
+                            <a href="" class="nav-link py-0">
+                                Contact us
+                            </a>
+                        </li>
+
+                        <li class="nav-item  mobile">
+                            <a class="nav-link p-0 me-md-3" href="#">
+                                <i class="fa fa-lock me-1"></i>
+                                login or register
+                            </a>
+                        </li>
+                        <li class="nav-item mobile">
+                            <a class="nav-link p-0" href="#">
+                                <i class="fa fa-phone me-1"></i>
+                                support +92665474835
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>  
+    </header>
+    <div class="inner-header">
+        <nav class="navbar navbar-expand-md py-0">
+            <div class="container-fluid all_section">
+                <button class="navbar-toggler" id="toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample02">
+                    <ul class="navbar-nav d-flex align-items-center all-categories">
+                        <li class="nav-item">
+                            <div class="dropdown me-md-4">
+                                <button type="button" class="" data-bs-toggle="dropdown">
+                                    <i class="fa fa-bars"></i>
+                                </button><span>all categories</span>
+                                <ul class="dropdown-menu rounded-0 p-0 mt-3">
+                                    <li>
+                                        <a class="dropdown-item py-3" href="#">home</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item py-3" href="#">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item py-3" href="#">about us</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item py-3" href="#">blogs</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item py-3" href="#">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto d-flex align-items-center responsive">
+                        <li class="nav-item">
+                            <a class="nav-link active py-0" aria-current="page" href="#">
+                                home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" href="#">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" href="#">
+                                about us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" href="#">
+                                blogs
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link py-0">
+                                Contact us
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="navbar-nav ms-auto d-flex align-items-center">
+                        <li class="nav-item ">
+                            <a class="nav-link p-0 me-md-3" href="#">
+                                <i class="fa fa-lock me-1"></i>
+                                login or register
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-0" href="#">
+                                <i class="fa fa-phone me-1"></i>
+                                support +92665474835
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="Desktop-16-hero-section">
+        <div class="container-fluid full_section" data-aos="fade-up">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card border-0 rounded-0">
+                        <img src="assets/img/Rectangle_4426.png" class="card-img rounded-0" alt="hero-banner-img">
+                        <div class="card-img-overlay ms-md-auto my-auto">
+                            <h1 class="All-H1-heading card-title p-0"data-aos="fade-up" data-aos-delay="100">
+                                hot right now!
+                            </h1>
+                            <p class="card-text p" data-aos="fade-up" data-aos-delay="200">
+                                Any one can beat you but no one can beat your outfit as long as you wear easy outfits.
+                            </p>
+                            <a href="#" class="btn" data-aos="fade-up" data-aos-delay="300">
+                                Shop Now
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero-slide">
+        <div class="container-fluid all_section">
+            <div class="hero-slide-box" data-aos="zoom-in">
+                <div class="hero-slide-inner-box d-flex align-items-center">
+                    <div class="icon">
+                        <img src="assets/img/hero-slide3.png" class="img-fluid">
+                    </div>
+                    <div class="icon-text">
+                        <h3 class="All-H3-heading">
+                            Fast deliver
+                        </h3>
+                        <span>from%59.98</span>
+                    </div>
+                </div>
+                <div class="hero-slide-inner-box d-flex align-items-center">
+                    <div class="icon">
+                        <img src="assets/img/hero-slide2.png" class="img-fluid">
+                    </div>
+                    <div class="icon-text">
+                        <h3 class="All-H3-heading">
+                            support 24/7
+                        </h3>
+                        <span>online 24 hours</span>
+                    </div>
+                </div>
+                <div class="hero-slide-inner-box d-flex align-items-center">
+                    <div class="icon">
+                        <img src="assets/img/hero-slide1.png" class="img-fluid">
+                    </div>
+                    <div class="icon-text">
+                        <h3 class="All-H3-heading">
+                            free returns
+                        </h3>
+                        <span>365 a day</span>
+                    </div>
+                </div>
+                <div class="hero-slide-inner-box d-flex align-items-center">
+                    <div class="icon">
+                        <img src="assets/img/hero-slide4.png" class="img-fluid">
+                    </div>
+                    <div class="icon-text">
+                        <h3 class="All-H3-heading">
+                            big savings
+                        </h3>
+                        <span>365 a day</span>
+                    </div>
+                </div>
+                <div class="hero-slide-inner-box d-flex align-items-center">
+                    <div class="icon">
+                        <img src="assets/img/hero-slide3.png" class="img-fluid">
+                    </div>
+                    <div class="icon-text">
+                        <h3 class="All-H3-heading">
+                            Fast deliver
+                        </h3>
+                        <span>from%59.98</span>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section class="shop-category">
+        <div class="container-fluid all_section" data-aos="fade-up">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="All-H2-heading px-0 mx-0">
+                        shop by category
+                    </h2>
+                    <div class="shop-category-block px-0 mx-0 d-flex flex-wrap justify-content-center
+                    ">
+                        <div class="shop-category-card d-flex align-items-center flex-column first" data-aos="fade-up" data-aos-delay="100">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/hero-slide1.png" class="img-fluid">    
+                            </div>
+                            <span>fashion</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="200">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-1.png" class="img-fluid">    
+                            </div>
+                            <span>furniture</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="300">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-2.png" class="img-fluid">    
+                            </div>
+                            <span>accessories</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="400">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-3.png" class="img-fluid">    
+                            </div>
+                            <span>shoes</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="500">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-4.png" class="img-fluid">    
+                            </div>
+                            <span>bags</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="600">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-5.png" class="img-fluid">    
+                            </div>
+                            <span>smartphones</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="700">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-6.png" class="img-fluid">    
+                            </div>
+                            <span>accessories</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column eight" data-aos="fade-up" data-aos-delay="800">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-2.png" class="img-fluid">    
+                            </div>
+                            <span>shoes</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="900">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-1.png" class="img-fluid">    
+                            </div>
+                            <span>furniture</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="1000">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-3.png" class="img-fluid">    
+                            </div>
+                            <span>accessories</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="1100">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/hero-slide1.png" class="img-fluid">    
+                            </div>
+                            <span>shoes</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="1200">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/hero-slide1.png" class="img-fluid">    
+                            </div>
+                            <span>bags</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="1300">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-6.png" class="img-fluid">    
+                            </div>
+                            <span>smartphones</span>
+                        </div>
+                        <div class="shop-category-card d-flex align-items-center flex-column" data-aos="fade-up" data-aos-delay="1400">
+                            <div class="img-block d-flex align-items-center justify-content-center">
+                                <img src="assets/img/SC-3.png" class="img-fluid">    
+                            </div>
+                            <span>accessories</span>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section class="best-seller">
+        <div class="container-fluid all_section" data-aos="fade-up">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bottom-border"><h2 class="All-H2-heading px-0 mx-0">
+                        best seller
+                    </h2></div>
+                    <nav>
+                        <div class="nav nav-tabs border-0 d-flex justify-content-md-end justify-content-center" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-Fashion-tab" data-bs-toggle="tab" data-bs-target="#nav-Fashion" type="button" role="tab" aria-controls="nav-Fashion" aria-selected="true">
+                                Fashion
+                            </button>
+                            <button class="nav-link" id="nav-Accessories-tab" data-bs-toggle="tab" data-bs-target="#nav-Accessories" type="button" role="tab" aria-controls="nav-Accessories" aria-selected="false">
+                                Accessories
+                            </button>
+                            <button class="nav-link" id="nav-Headphones-tab" data-bs-toggle="tab" data-bs-target="#nav-Headphones" type="button" role="tab" aria-controls="nav-Headphones" aria-selected="false">
+                                Headphones
+                            </button>
+                            <button class="nav-link" id="nav-Mobile-tab" data-bs-toggle="tab" data-bs-target="#nav-Mobile" type="button" role="tab" aria-controls="nav-Mobile" aria-selected="false">
+                                Mobile
+                            </button>
+                        </div>
+                    </nav>
+                    <nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-Fashion" role="tabpanel" aria-labelledby="nav-Fashion-tab">
+                            <div class="d-grid">
+                                <div class="best-seller-box" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="top d-flex flex-column justify-content-between">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="discount">
+                                                20% off
+                                            </span>
+                                            <span class="heart d-flex align-items-center justify-content-center">
+                                                <i class="fa fa-heart"></i>
+                                            </span>    
+                                            </div>
+                                        <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                        <a href="" class="d-block text-center">add to cart</a>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                            <span class="title">cotton Shirt</span>
+                                            <span class="title-scoure">
+                                                5.1<i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="price-box d-inline-flex">
+                                            <span class="sale">$150.36</span>
+                                            <span class="hide ms-4">$250.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="best-seller-box" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="top d-flex flex-column justify-content-between">
+                                        <div class="d-flex justify-content-end align-items-center">
+                                            <span class="heart d-flex align-items-center justify-content-center">
+                                                <i class="fa fa-heart"></i>
+                                            </span>    
+                                            </div>
+                                        <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                        <a href="" class="d-block text-center">add to cart</a>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                            <span class="title">cotton Shirt</span>
+                                            <span class="title-scoure">
+                                                5.1<i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="price-box d-inline-flex">
+                                            <span class="sale">$150.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="best-seller-box" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="top d-flex flex-column justify-content-between">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="discount">
+                                                20% off
+                                            </span>
+                                            <span class="heart d-flex align-items-center justify-content-center">
+                                                <i class="fa fa-heart"></i>
+                                            </span>    
+                                            </div>
+                                        <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                        <a href="" class="d-block text-center">add to cart</a>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                            <span class="title">cotton Shirt</span>
+                                            <span class="title-scoure">
+                                                5.1<i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="price-box d-inline-flex">
+                                            <span class="sale">$150.36</span>
+                                            <span class="hide ms-4">$250.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="best-seller-box" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="top d-flex flex-column justify-content-between">
+                                        <div class="d-flex justify-content-end align-items-center">
+                                            <span class="heart d-flex align-items-center justify-content-center">
+                                                <i class="fa fa-heart"></i>
+                                            </span>    
+                                            </div>
+                                        <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                        <a href="" class="d-block text-center">add to cart</a>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                            <span class="title">cotton Shirt</span>
+                                            <span class="title-scoure">
+                                                5.1<i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="price-box d-inline-flex">
+                                            <span class="sale">$150.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Accessories" role="tabpanel" aria-labelledby="nav-Accessories-tab">
+                            <div class="d-grid">
+                                <div class="best-seller-box" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="top d-flex flex-column justify-content-between">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="discount">
+                                                20% off
+                                            </span>
+                                            <span class="heart d-flex align-items-center justify-content-center">
+                                                <i class="fa fa-heart"></i>
+                                            </span>    
+                                            </div>
+                                        <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                        <a href="" class="d-block text-center">add to cart</a>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                            <span class="title">cotton Shirt</span>
+                                            <span class="title-scoure">
+                                                5.1<i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="price-box d-inline-flex">
+                                            <span class="sale">$150.36</span>
+                                            <span class="hide ms-4">$250.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="best-seller-box" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="top d-flex flex-column justify-content-between">
+                                        <div class="d-flex justify-content-end align-items-center">
+                                            <span class="heart d-flex align-items-center justify-content-center">
+                                                <i class="fa fa-heart"></i>
+                                            </span>    
+                                            </div>
+                                        <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                        <a href="" class="d-block text-center">add to cart</a>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                            <span class="title">cotton Shirt</span>
+                                            <span class="title-scoure">
+                                                5.1<i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="price-box d-inline-flex">
+                                            <span class="sale">$150.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="best-seller-box" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="top d-flex flex-column justify-content-between">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="discount">
+                                                20% off
+                                            </span>
+                                            <span class="heart d-flex align-items-center justify-content-center">
+                                                <i class="fa fa-heart"></i>
+                                            </span>    
+                                            </div>
+                                        <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                        <a href="" class="d-block text-center">add to cart</a>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                            <span class="title">cotton Shirt</span>
+                                            <span class="title-scoure">
+                                                5.1<i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="price-box d-inline-flex">
+                                            <span class="sale">$150.36</span>
+                                            <span class="hide ms-4">$250.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Headphones" role="tabpanel" aria-labelledby="nav-Headphones-tab">
+                            <div class="d-grid">
+                                <div class="best-seller-box" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="top d-flex flex-column justify-content-between">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="discount">
+                                                20% off
+                                            </span>
+                                            <span class="heart d-flex align-items-center justify-content-center">
+                                                <i class="fa fa-heart"></i>
+                                            </span>    
+                                            </div>
+                                        <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                        <a href="" class="d-block text-center">add to cart</a>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                            <span class="title">cotton Shirt</span>
+                                            <span class="title-scoure">
+                                                5.1<i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="price-box d-inline-flex">
+                                            <span class="sale">$150.36</span>
+                                            <span class="hide ms-4">$250.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="best-seller-box" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="top d-flex flex-column justify-content-between">
+                                        <div class="d-flex justify-content-end align-items-center">
+                                            <span class="heart d-flex align-items-center justify-content-center">
+                                                <i class="fa fa-heart"></i>
+                                            </span>    
+                                            </div>
+                                        <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                        <a href="" class="d-block text-center">add to cart</a>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                            <span class="title">cotton Shirt</span>
+                                            <span class="title-scoure">
+                                                5.1<i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="price-box d-inline-flex">
+                                            <span class="sale">$150.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Mobile" role="tabpanel" aria-labelledby="nav-Mobile-tab">
+                            <div class="d-grid">
+                                <div class="best-seller-box" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="top d-flex flex-column justify-content-between">
+                                        <div class="d-flex justify-content-end align-items-center">
+                                            <span class="heart d-flex align-items-center justify-content-center">
+                                                <i class="fa fa-heart"></i>
+                                            </span>    
+                                            </div>
+                                        <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                        <a href="" class="d-block text-center">add to cart</a>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                            <span class="title">cotton Shirt</span>
+                                            <span class="title-scoure">
+                                                5.1<i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="price-box d-inline-flex">
+                                            <span class="sale">$150.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section class="tropical-punch">
+        <div class="tropical-punch-slider">
+            <div class="card border-0 rounded-4">
+                <img src="assets/img/tp1.png" class="card-img img-fluid" alt="hero-banner-img">
+                <div class="card-img-overlay flex-column d-flex align-items-center justify-content-center">
+                    <p class="card-text p text-white m-0">
+                        Collection for Women
+                    </p>
+                    <h2 class="All-H2-heading card-title text-white">
+                        tropical punch
+                    </h2>
+                    <a href="#" class="tp">
+                        See more
+                        <i class="fa fa-arrow-right-long"></i>
+                    </a> 
+                </div>
+            </div>
+            <div class="card border-0 rounded-4">
+                <img src="assets/img/banner_2.png" class="card-img img-fluid" alt="hero-banner-img">
+                <div class="card-img-overlay flex-column d-flex align-items-center justify-content-center">
+                    <p class="card-text p text-white m-0">
+                        Collection for Women
+                    </p>
+                    <h2 class="All-H2-heading card-title text-white">
+                        tropical punch
+                    </h2>
+                    <a href="#" class="tp">
+                        See more
+                        <i class="fa fa-arrow-right-long"></i>
+                    </a> 
+                </div>
+            </div>
+            <div class="card border-0 rounded-4">
+                <img src="assets/img/banner_4.png" class="card-img img-fluid" alt="hero-banner-img">
+                <div class="card-img-overlay flex-column d-flex align-items-center justify-content-center">
+                    <p class="card-text p text-white m-0">
+                        Collection for Women
+                    </p>
+                    <h2 class="All-H2-heading card-title text-white">
+                        tropical punch
+                    </h2>
+                    <a href="#" class="tp">
+                        See more
+                        <i class="fa fa-arrow-right-long"></i>
+                    </a> 
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section class="latest-products">
+        <div class="container-fluid all_section" data-aos="fade-up">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="All-H2-heading px-0 mx-0">
+                        latest products
+                    </h2>
+                    <div class="latest-products-block px-0 mx-0 d-grid" >
+                        <div class="best-seller-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="top d-flex flex-column justify-content-between">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="discount">
+                                        20% off
+                                    </span>
+                                    <span class="heart d-flex align-items-center justify-content-center">
+                                        <i class="fa fa-heart"></i>
+                                    </span>    
+                                    </div>
+                                <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                <a href="" class="d-block text-center">add to cart</a>
+                            </div>
+                            <div class="bottom">
+                                <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                    <span class="title">cotton Shirt</span>
+                                    <span class="title-scoure">
+                                        5.1<i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="price-box d-inline-flex">
+                                    <span class="sale">$150.36</span>
+                                    <span class="hide ms-4">$250.36</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="best-seller-box" data-aos="fade-up" data-aos-delay="200">
+                            <div class="top d-flex flex-column justify-content-between">
+                                <div class="d-flex justify-content-end align-items-center">
+                                    <span class="heart d-flex align-items-center justify-content-center">
+                                        <i class="fa fa-heart"></i>
+                                    </span>    
+                                    </div>
+                                <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                <a href="" class="d-block text-center">add to cart</a>
+                            </div>
+                            <div class="bottom">
+                                <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                    <span class="title">cotton Shirt</span>
+                                    <span class="title-scoure">
+                                        5.1<i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="price-box d-inline-flex">
+                                    <span class="sale">$150.36</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="best-seller-box" data-aos="fade-up" data-aos-delay="300">
+                            <div class="top d-flex flex-column justify-content-between">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="discount">
+                                        20% off
+                                    </span>
+                                    <span class="heart d-flex align-items-center justify-content-center">
+                                        <i class="fa fa-heart"></i>
+                                    </span>    
+                                    </div>
+                                <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                <a href="" class="d-block text-center">add to cart</a>
+                            </div>
+                            <div class="bottom">
+                                <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                    <span class="title">cotton Shirt</span>
+                                    <span class="title-scoure">
+                                        5.1<i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="price-box d-inline-flex">
+                                    <span class="sale">$150.36</span>
+                                    <span class="hide ms-4">$250.36</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="best-seller-box" data-aos="fade-up" data-aos-delay="400">
+                            <div class="top d-flex flex-column justify-content-between">
+                                <div class="d-flex justify-content-end align-items-center">
+                                    <span class="heart d-flex align-items-center justify-content-center">
+                                        <i class="fa fa-heart"></i>
+                                    </span>    
+                                    </div>
+                                <img src="assets/img/shop-catgeroy.png" class="img-fluid">
+                                <a href="" class="d-block text-center">add to cart</a>
+                            </div>
+                            <div class="bottom">
+                                <div class="title-box my-3 d-flex justify-content-between align-items-center">
+                                    <span class="title">cotton Shirt</span>
+                                    <span class="title-scoure">
+                                        5.1<i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="price-box d-inline-flex">
+                                    <span class="sale">$150.36</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section class="Jaccard-Wrap">
+        <div class="container-fluid all_section" data-aos="fade-up">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card border-0 rounded-4 text-md-start text-center">
+                        <img src="assets/img/Jaccard-Wrap.png" class="card-img img-fluid" alt="hero-banner-img">
+                        <div class="card-img-overlay flex-column d-flex align-items-md-start align-items-center justify-content-center">
+                            <h2 class="All-H2-heading card-title text-white" data-aos="fade-up" data-aos-delay="100">
+                                Jaccard Wrap Knitted Microfiber Towel
+                            </h2>
+                            <p class="card-text p text-white m-0" data-aos="fade-up" data-aos-delay="200">
+                                Any one can beat you but no one can beat your outfit
+                                as long as you wear easy outfits.
+                            </p>
+                            <a href="#" class="btn tp text-white" data-aos="fade-up" data-aos-delay="300">
+                                Shop Now
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="C-name-slide">
+        <div class="container-fluid all_section">
+            <div class="row">
+                <div class="col-12">
+                    <div class="C-name-slider">
+                        <div class="img">
+                            <img src="assets/img/C-name-slide1.png" class="img-fluid mx-auto">
+                        </div>
+                        <div class="img">
+                            <img src="assets/img/C-name-slide2.png" class="img-fluid mx-auto">
+                        </div>
+                        <div class="img">
+                            <img src="assets/img/C-name-slide3.png" class="img-fluid mx-auto">
+                        </div>
+                        <div class="img">
+                            <img src="assets/img/C-name-slide4.png" class="img-fluid mx-auto">
+                        </div>
+                        <div class="img">
+                            <img src="assets/img/C-name-slide5.png" class="img-fluid mx-auto">
+                        </div>
+                        <div class="img">
+                            <img src="assets/img/C-name-slide1.png" class="img-fluid mx-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="download-mobile-app mx-auto">
+        <div class="container-fluid all_section">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="left">
+                        <h2 class="All-H2-heading text-white m-0" data-aos="fade-up" data-aos-delay="100">
+                            download our mobile app now!
+                        </h2>
+                        <p class="p text-white" data-aos="fade-up" data-aos-delay="200">
+                            Welcome to a place of refinement and beauty. This is Furniture, a WP gem we made for all furniture stores & brands.
+                        </p>
+                        <div class="img-block d-inline-flex align-items-center">
+                            <div class="img me-md-4 me-2" data-aos="fade-up" data-aos-delay="300">
+                                <img src="assets/img/Mobile-app-store.png" class="img-fluid">
+                            </div>
+                            <div class="img">
+                                <img src="assets/img/Mobile-app.png" class="img-fluid" data-aos="fade-up" data-aos-delay="400">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="right d-flex justify-content-end">
+                        <img src="assets/img/iPhone.png" class="img-fluid" data-aos="fade-right" data-aos-delay="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="latest-from-blogs">
+        <div class="container-fluid all_section">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="All-H2-heading px-0 mx-0">
+                        latest from blogs
+                    </h2>
+                    <div class="latest-from-blogs-block px-0 mx-0">
+                        <div class="card rounded-0 border-0">
+                            <div class="post-img">
+                                <img src="assets/img/17.jpeg" class="card-img-top img-fluid rounded-0" alt="card img">
+                            </div>
+                            <div class="card-body px-0 pt-4">
+                                <h3 class="card-title All-H3-heading">
+                                    cotton Shirt making process
+                                </h3>
+                                <ul class="px-0 d-inline-flex mt-2 mb-0">
+                                    <li class=""><i class="fa fa-calendar-days"></i>
+                                        oct 3, 2018
+                                    </li>
+                                    <li class="ms-3"><i class="fa fa-comments"></i>
+                                        12
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card rounded-0 border-0">
+                            <div class="post-img">
+                                <img src="assets/img/latest-from-blogs2.png" class="card-img-top img-fluid rounded-0" alt="card img">
+                            </div>
+                            <div class="card-body px-0 pt-4">
+                                <h3 class="card-title All-H3-heading">
+                                    cotton Shirt making process
+                                </h3>
+                                <ul class="px-0 d-inline-flex mt-2 mb-0">
+                                    <li class=""><i class="fa fa-calendar-days"></i>
+                                        oct 3, 2018
+                                    </li>
+                                    <li class="ms-3"><i class="fa fa-comments"></i>
+                                        12
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card rounded-0 border-0">
+                            <div class="post-img">
+                                <img src="assets/img/latest-from-blogs3.png" class="card-img-top img-fluid rounded-0" alt="card img">
+                            </div>
+                            <div class="card-body px-0 pt-4">
+                                <h3 class="card-title All-H3-heading">
+                                    cotton Shirt making process
+                                </h3>
+                                <ul class="px-0 d-inline-flex mt-2 mb-0">
+                                    <li class=""><i class="fa fa-calendar-days"></i>
+                                        oct 3, 2018
+                                    </li>
+                                    <li class="ms-3"><i class="fa fa-comments"></i>
+                                        12
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card rounded-0 border-0">
+                            <div class="post-img">
+                                <img src="assets/img/14.jpeg" class="card-img-top img-fluid rounded-0" alt="card img">
+                            </div>
+                            <div class="card-body px-0 pt-4">
+                                <h3 class="card-title All-H3-heading">
+                                    cotton Shirt making process
+                                </h3>
+                                <ul class="px-0 d-inline-flex mt-2 mb-0">
+                                    <li class=""><i class="fa fa-calendar-days"></i>
+                                        oct 3, 2018
+                                    </li>
+                                    <li class="ms-3"><i class="fa fa-comments"></i>
+                                        12
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>  
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid all_section">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="logo-block">
+                        <img src="assets/img/footer-logo.png">
+                        <p class="p text-white">
+                            Welcome to a place of refinement and beauty. This is Furniture, a WP gem we made for all furniture stores & brands.
+                        </p>
+                        <ul class="px-0 d-inline-flex">
+                            <a href="">
+                                <li><i class="fa fa-twitter"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fa fa-facebook-f"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fa fa-instagram"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fa fa-youtube"></i></li>
+                            </a>    
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-12">
+                    <div class="footer-item-block">
+                        <h3 class="All-H3-heading m-0 text-white">
+                            Company
+                        </h3>
+                        <ul class="px-0 mb-0">
+                            <li class="my-3">
+                                <a href="">About us</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">Contact us</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">Terms & Conditions</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">Support Center</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-12">
+                    <div class="footer-item-block">
+                        <h3 class="All-H3-heading m-0 text-white">
+                            Question?
+                        </h3>
+                        <ul class="px-0 mb-0">
+                            <li class="my-3">
+                                <a href="">Help Support</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">Track Order</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">Return</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">Shipping Info</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">History</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12">
+                    <div class="footer-item-block">
+                        <h3 class="All-H3-heading m-0 text-white">
+                            Useful links
+                        </h3>
+                        <ul class="px-0 mb-0">
+                            <li class="my-3">
+                                <a href="">Gift Cards</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">Size Cards</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">My Account</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">Our Location</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12">
+                    <div class="footer-item-block">
+                        <h3 class="All-H3-heading m-0 text-white">
+                            Connect with us
+                        </h3>
+                        <ul class="px-0 mb-0">
+                            <li class="my-3">
+                                <a href="">
+                                    <i class="fa fa-location-dot"></i>
+                                    loremipsum.pakistan
+                                </a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">
+                                    <i class="fa fa-message"></i>
+                                    info@gmail.com
+                                </a>
+                            </li>
+                            <li class="my-3">
+                                <a href="">
+                                    <i class="fa fa-phone"></i>
+                                    2382035970
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <div id="preloader"></div>
+	
+    <!-- Slick Slider Script -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Custom Script -->
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // on focus remove border of input
+            $("#search").focus(function () {
+                $('#searchIcon').hide('slow');
+            });
+            // onfocusout add border to and outline to input
+            $("#search").focusout(function () {
+                $('#searchIcon').show('slow');
+            });
+        });  
+    </script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
